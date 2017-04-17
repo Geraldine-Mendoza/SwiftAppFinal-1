@@ -24,6 +24,10 @@
 		3F2496001EA541BB00F2360A /* Timer & Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FF1EA541BB00F2360A /* Timer & Pages.storyboard */; };
 		3F2496021EA541F400F2360A /* Book Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496011EA541F400F2360A /* Book Info.storyboard */; };
 		3F2496041EA5420900F2360A /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496031EA5420900F2360A /* Authentication.storyboard */; };
+		3F2496061EA54FB000F2360A /* User Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496051EA54FB000F2360A /* User Info.storyboard */; };
+		3F2496091EA5501D00F2360A /* Avatar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496081EA5501D00F2360A /* Avatar.storyboard */; };
+		3F24960B1EA5506600F2360A /* Home Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */; };
+		3F24960D1EA5508E00F2360A /* Navigation Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		3F2495FF1EA541BB00F2360A /* Timer & Pages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Timer & Pages.storyboard"; sourceTree = "<group>"; };
 		3F2496011EA541F400F2360A /* Book Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Book Info.storyboard"; sourceTree = "<group>"; };
 		3F2496031EA5420900F2360A /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		3F2496051EA54FB000F2360A /* User Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "User Info.storyboard"; sourceTree = "<group>"; };
+		3F2496081EA5501D00F2360A /* Avatar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Avatar.storyboard; sourceTree = "<group>"; };
+		3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home Tutorial.storyboard"; sourceTree = "<group>"; };
+		3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Navigation Tutorial.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		3F2495C51EA53B9E00F2360A /* FInal Project */ = {
 			isa = PBXGroup;
 			children = (
+				3F2496071EA54FC700F2360A /* First Launch */,
 				3F2495FA1EA5417A00F2360A /* Get Reading */,
 				3F2495F71EA5414300F2360A /* Library */,
 				3F2495F21EA5410E00F2360A /* Extras */,
@@ -165,6 +174,17 @@
 			name = "Get Reading";
 			sourceTree = "<group>";
 		};
+		3F2496071EA54FC700F2360A /* First Launch */ = {
+			isa = PBXGroup;
+			children = (
+				3F2496051EA54FB000F2360A /* User Info.storyboard */,
+				3F2496081EA5501D00F2360A /* Avatar.storyboard */,
+				3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */,
+				3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */,
+			);
+			name = "First Launch";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,13 +250,17 @@
 				3F2495FC1EA5418F00F2360A /* Enter Book Info.storyboard in Resources */,
 				3F2495D41EA53BA000F2360A /* LaunchScreen.storyboard in Resources */,
 				3F2495D11EA53BA000F2360A /* Assets.xcassets in Resources */,
+				3F24960B1EA5506600F2360A /* Home Tutorial.storyboard in Resources */,
 				3F2495E51EA5406800F2360A /* Navigation.storyboard in Resources */,
+				3F2496091EA5501D00F2360A /* Avatar.storyboard in Resources */,
 				3F2496001EA541BB00F2360A /* Timer & Pages.storyboard in Resources */,
 				3F2496041EA5420900F2360A /* Authentication.storyboard in Resources */,
+				3F24960D1EA5508E00F2360A /* Navigation Tutorial.storyboard in Resources */,
 				3F2495FE1EA541A600F2360A /* Cover Picture.storyboard in Resources */,
 				3F2495F91EA5416A00F2360A /* Change Info.storyboard in Resources */,
 				3F2495CC1EA53B9F00F2360A /* Main.storyboard in Resources */,
 				3F2495F61EA5413B00F2360A /* Library.storyboard in Resources */,
+				3F2496061EA54FB000F2360A /* User Info.storyboard in Resources */,
 				3F2495E21EA5403800F2360A /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
