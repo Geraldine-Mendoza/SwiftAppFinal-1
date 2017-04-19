@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Eol-NQ-G9a">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Calendar Root View-->
+        <scene sceneID="JQY-7t-RcE">
+            <objects>
+                <tableViewController title="Calendar Root View" id="eHi-RG-dEz" customClass="CalendarController" customModule="NavigationBar_4_" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ryj-FF-xYy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="mN3-7H-YtM">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mN3-7H-YtM" id="8z0-pQ-enm">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="290" id="80y-ck-9Gm">
+                                <rect key="frame" x="0.0" y="72" width="375" height="290"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="80y-ck-9Gm" id="aHP-Yn-fCy">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="289"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eHi-RG-dEz" id="zyd-JV-LDo"/>
+                            <outlet property="delegate" destination="eHi-RG-dEz" id="IHL-RT-aiE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Calendar Controller" id="vZB-4P-RYP">
+                        <barButtonItem key="leftBarButtonItem" image="HamburgerMenuButton" id="ecj-WH-Jvp"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="MenuButton" destination="ecj-WH-Jvp" id="Nmz-zl-xU0"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37S-fz-2z6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1156" y="2090"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="ldD-yF-NHg">
+            <objects>
+                <navigationController storyboardIdentifier="Calendar" id="Eol-NQ-G9a" userLabel="Calendar" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calendar" id="gxQ-gz-PW6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wTV-wV-gaw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eHi-RG-dEz" kind="relationship" relationship="rootViewController" id="jF1-jI-Jo6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xiE-qV-0DD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1156" y="1291"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HamburgerMenuButton" width="23" height="20"/>
+    </resources>
+</document>
