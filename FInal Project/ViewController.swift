@@ -19,7 +19,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+// If user data does not exist, begin tutorial
+// If user data does exist, go to confirmation screen
+    @IBOutlet weak var NewButton: UIButton!
+// If user data does not exist, do not display "Continue" option
+    @IBOutlet weak var ContinueButton: UIButton!
 }
 
