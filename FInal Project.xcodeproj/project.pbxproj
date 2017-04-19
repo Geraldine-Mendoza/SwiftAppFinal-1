@@ -15,7 +15,6 @@
 		3F2495E51EA5406800F2360A /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495E41EA5406800F2360A /* Navigation.storyboard */; };
 		3F2495EE1EA540E600F2360A /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495ED1EA540E600F2360A /* Calendar.storyboard */; };
 		3F2495F11EA5410A00F2360A /* Extras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495F01EA5410A00F2360A /* Extras.storyboard */; };
-		3F2495F61EA5413B00F2360A /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495F51EA5413B00F2360A /* Library.storyboard */; };
 		3F2495F91EA5416A00F2360A /* Change Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495F81EA5416A00F2360A /* Change Info.storyboard */; };
 		3F2495FC1EA5418F00F2360A /* Enter Book Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FB1EA5418F00F2360A /* Enter Book Info.storyboard */; };
 		3F2495FE1EA541A600F2360A /* Cover Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FD1EA541A600F2360A /* Cover Picture.storyboard */; };
@@ -27,6 +26,7 @@
 		3F24960D1EA5508E00F2360A /* Navigation Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */; };
 		3F24960F1EA55C6000F2360A /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960E1EA55C6000F2360A /* Notifications.storyboard */; };
 		3F4568071EA79F8C00A6CACE /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568061EA79F8C00A6CACE /* LibraryController.swift */; };
+		3F4568091EA7C4E800A6CACE /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568081EA7C4E800A6CACE /* Library.storyboard */; };
 		3FD74E251EA7974100FB7CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74E241EA7974100FB7CD9 /* Main.storyboard */; };
 		3FE2C7511EA6E08A00B9B14D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2C7501EA6E08A00B9B14D /* Home.storyboard */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,6 @@
 		3F2495E41EA5406800F2360A /* Navigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Navigation.storyboard; path = "FInal Project/Navigation.storyboard"; sourceTree = "<group>"; };
 		3F2495ED1EA540E600F2360A /* Calendar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calendar.storyboard; path = "FInal Project/Calendar.storyboard"; sourceTree = "<group>"; };
 		3F2495F01EA5410A00F2360A /* Extras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Extras.storyboard; path = "FInal Project/Extras.storyboard"; sourceTree = "<group>"; };
-		3F2495F51EA5413B00F2360A /* Library.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Library.storyboard; path = "FInal Project/Library.storyboard"; sourceTree = "<group>"; };
 		3F2495F81EA5416A00F2360A /* Change Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Change Info.storyboard"; path = "FInal Project/Change Info.storyboard"; sourceTree = "<group>"; };
 		3F2495FB1EA5418F00F2360A /* Enter Book Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Enter Book Info.storyboard"; sourceTree = "<group>"; };
 		3F2495FD1EA541A600F2360A /* Cover Picture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Cover Picture.storyboard"; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Navigation Tutorial.storyboard"; sourceTree = "<group>"; };
 		3F24960E1EA55C6000F2360A /* Notifications.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
 		3F4568061EA79F8C00A6CACE /* LibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryController.swift; path = "FInal Project/LibraryController.swift"; sourceTree = "<group>"; };
+		3F4568081EA7C4E800A6CACE /* Library.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
 		3FD74E241EA7974100FB7CD9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3FE2C7501EA6E08A00B9B14D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,8 +159,8 @@
 		3F2495F71EA5414300F2360A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				3F4568081EA7C4E800A6CACE /* Library.storyboard */,
 				3F4568061EA79F8C00A6CACE /* LibraryController.swift */,
-				3F2495F51EA5413B00F2360A /* Library.storyboard */,
 				3F2496011EA541F400F2360A /* Book Info.storyboard */,
 			);
 			name = Library;
@@ -259,6 +259,7 @@
 				3F2495EE1EA540E600F2360A /* Calendar.storyboard in Resources */,
 				3F2495F11EA5410A00F2360A /* Extras.storyboard in Resources */,
 				3F2495FC1EA5418F00F2360A /* Enter Book Info.storyboard in Resources */,
+				3F4568091EA7C4E800A6CACE /* Library.storyboard in Resources */,
 				3F2495D41EA53BA000F2360A /* LaunchScreen.storyboard in Resources */,
 				3F2495D11EA53BA000F2360A /* Assets.xcassets in Resources */,
 				3F24960B1EA5506600F2360A /* Home Tutorial.storyboard in Resources */,
@@ -271,7 +272,6 @@
 				3F2495F91EA5416A00F2360A /* Change Info.storyboard in Resources */,
 				3FE2C7511EA6E08A00B9B14D /* Home.storyboard in Resources */,
 				3FD74E251EA7974100FB7CD9 /* Main.storyboard in Resources */,
-				3F2495F61EA5413B00F2360A /* Library.storyboard in Resources */,
 				3F2496061EA54FB000F2360A /* User Info.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
