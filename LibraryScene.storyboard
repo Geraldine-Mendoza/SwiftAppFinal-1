@@ -12,7 +12,7 @@
         <!--Library Controller-->
         <scene sceneID="eyu-6x-eOD">
             <objects>
-                <tableViewController title="Library Controller" id="0j3-RE-wyI" customClass="LibraryController" customModule="NavigationBar_4_" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Library Controller" id="0j3-RE-wyI" customClass="LibraryController" customModule="FInal_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="0T2-3i-EvQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gHX-D6-eXK" id="shi-EE-qub">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -47,7 +47,7 @@
         <scene sceneID="r7b-PK-u67">
             <objects>
                 <navigationController title="Library Scene" id="FON-ZJ-3P6" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Hy-hj-fIq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6Hy-hj-fIq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

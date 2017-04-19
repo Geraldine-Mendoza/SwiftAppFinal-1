@@ -21,14 +21,14 @@ class LibraryController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        /*
+        
         //burger side bar menu
         if revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = #selector((SWRevealViewController.revealToggle) as (SWRevealViewController) -> (Void) -> Void) // Swift 3 fix
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
- */
+ 
     }
 
     override func didReceiveMemoryWarning() {
