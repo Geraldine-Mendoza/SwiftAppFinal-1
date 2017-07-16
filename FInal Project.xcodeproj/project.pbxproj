@@ -7,81 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F2495C91EA53B9F00F2360A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2495C81EA53B9F00F2360A /* MainViewController.swift */; };
-		3F2495CF1EA53BA000F2360A /* FInal_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F2495CD1EA53BA000F2360A /* FInal_Project.xcdatamodeld */; };
+		3F0037221EE859510055D34D /* User Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00371C1EE859510055D34D /* User Info.storyboard */; };
+		3F0037231EE859510055D34D /* User Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00371D1EE859510055D34D /* User Info.swift */; };
+		3F0037241EE859510055D34D /* Avatar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F00371E1EE859510055D34D /* Avatar.storyboard */; };
+		3F0037251EE859510055D34D /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00371F1EE859510055D34D /* Avatar.swift */; };
+		3F0037271EE859510055D34D /* Navigation Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0037211EE859510055D34D /* Navigation Tutorial.storyboard */; };
+		3F100E751EDE29F00086214B /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F100E741EDE29EF0086214B /* Authentication.swift */; };
+		3F100E7F1EDEFA330086214B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F100E7E1EDEFA330086214B /* CalendarViewController.swift */; };
+		3F100E811EDEFA4F0086214B /* CalendarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F100E801EDEFA4F0086214B /* CalendarView.storyboard */; };
 		3F2495D41EA53BA000F2360A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495D21EA53BA000F2360A /* LaunchScreen.storyboard */; };
-		3F2495F11EA5410A00F2360A /* Extras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495F01EA5410A00F2360A /* Extras.storyboard */; };
 		3F2495F91EA5416A00F2360A /* Change Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495F81EA5416A00F2360A /* Change Info.storyboard */; };
 		3F2495FC1EA5418F00F2360A /* Enter Book Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FB1EA5418F00F2360A /* Enter Book Info.storyboard */; };
-		3F2495FE1EA541A600F2360A /* Cover Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FD1EA541A600F2360A /* Cover Picture.storyboard */; };
-		3F2496001EA541BB00F2360A /* Timer & Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FF1EA541BB00F2360A /* Timer & Pages.storyboard */; };
-		3F2496021EA541F400F2360A /* Book Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496011EA541F400F2360A /* Book Info.storyboard */; };
+		3F2496001EA541BB00F2360A /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2495FF1EA541BB00F2360A /* Stopwatch.storyboard */; };
 		3F2496041EA5420900F2360A /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496031EA5420900F2360A /* Authentication.storyboard */; };
-		3F2496061EA54FB000F2360A /* User Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2496051EA54FB000F2360A /* User Info.storyboard */; };
-		3F24960B1EA5506600F2360A /* Home Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */; };
-		3F24960D1EA5508E00F2360A /* Navigation Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */; };
 		3F24960F1EA55C6000F2360A /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F24960E1EA55C6000F2360A /* Notifications.storyboard */; };
-		3F4568071EA79F8C00A6CACE /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568061EA79F8C00A6CACE /* LibraryController.swift */; };
-		3F4568091EA7C4E800A6CACE /* LibraryScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568081EA7C4E800A6CACE /* LibraryScene.storyboard */; };
+		3F34DF101ED46417008244B9 /* ReadingGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F34DF0F1ED46416008244B9 /* ReadingGoal.swift */; };
 		3F4568151EA7FDF400A6CACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568141EA7FDF400A6CACE /* Main.storyboard */; };
 		3F4568171EA7FE5700A6CACE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568161EA7FE5700A6CACE /* MenuViewController.swift */; };
 		3F4568191EA7FE6100A6CACE /* normalMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568181EA7FE6100A6CACE /* normalMenuCell.swift */; };
 		3F45681B1EA7FE6800A6CACE /* menuProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45681A1EA7FE6800A6CACE /* menuProfileCell.swift */; };
 		3F4568201EA7FEB100A6CACE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F45681F1EA7FEB100A6CACE /* SWRevealViewController.m */; };
-		3F4568241EA80C8A00A6CACE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568221EA80C8A00A6CACE /* HomeViewController.swift */; };
-		3F4568251EA80C8A00A6CACE /* HomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568231EA80C8A00A6CACE /* HomeScene.storyboard */; };
-		3F4568291EA80CFD00A6CACE /* AchievementsScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568271EA80CFD00A6CACE /* AchievementsScene.storyboard */; };
-		3F45682A1EA80CFD00A6CACE /* AchievementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568281EA80CFD00A6CACE /* AchievementsController.swift */; };
-		3F45682E1EA80D3400A6CACE /* CalendarScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F45682C1EA80D3400A6CACE /* CalendarScene.storyboard */; };
-		3F45682F1EA80D3400A6CACE /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F45682D1EA80D3400A6CACE /* CalendarController.swift */; };
 		3F4568331EA80D5000A6CACE /* CreditsScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568311EA80D5000A6CACE /* CreditsScene.storyboard */; };
 		3F4568341EA80D5000A6CACE /* CreditsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568321EA80D5000A6CACE /* CreditsController.swift */; };
 		3F4568371EA80D9600A6CACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4568361EA80D9600A6CACE /* AppDelegate.swift */; };
 		3F4568391EA80DC600A6CACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4568381EA80DC600A6CACE /* Assets.xcassets */; };
-		3FD74E251EA7974100FB7CD9 /* StartingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD74E241EA7974100FB7CD9 /* StartingScreen.storyboard */; };
-		3FE2C7511EA6E08A00B9B14D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2C7501EA6E08A00B9B14D /* Home.storyboard */; };
+		3F463C931EEDEF1500C1F7A9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F463C921EEDEF1500C1F7A9 /* Home.swift */; };
+		3F463C951EEDEF4B00C1F7A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F463C941EEDEF4B00C1F7A9 /* HomeViewController.swift */; };
+		3F485D401EF0161A00616683 /* Change Avatar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F485D3F1EF0161900616683 /* Change Avatar.storyboard */; };
+		3F485D421EF0171600616683 /* Change Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F485D411EF0171600616683 /* Change Avatar.swift */; };
+		3F4977AC1EE81C8A00EEEE80 /* ManuallyEnterTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4977AB1EE81C8900EEEE80 /* ManuallyEnterTime.swift */; };
+		3F4E4ADC1EF9578300A5D19E /* Home Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E4ADB1EF9578300A5D19E /* Home Tutorial.storyboard */; };
+		3F6A33CF1EDD90B900362610 /* TimerProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A33CE1EDD90B900362610 /* TimerProgressViewController.swift */; };
+		3F7BF95D1EF4165100CA0B7C /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BF95C1EF4165100CA0B7C /* Tutorial.swift */; };
+		3FEA277F1EFA9C8E003BF5DA /* LibraryScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA27741EFA9C8E003BF5DA /* LibraryScene.storyboard */; };
+		3FEA27801EFA9C8E003BF5DA /* LibraryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27751EFA9C8E003BF5DA /* LibraryController.swift */; };
+		3FEA27811EFA9C8E003BF5DA /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27761EFA9C8E003BF5DA /* FloatRatingView.swift */; };
+		3FEA27821EFA9C8E003BF5DA /* DetailedBookInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA27771EFA9C8E003BF5DA /* DetailedBookInfo.storyboard */; };
+		3FEA27831EFA9C8E003BF5DA /* BookInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27781EFA9C8E003BF5DA /* BookInfoController.swift */; };
+		3FEA27841EFA9C8E003BF5DA /* EditBookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27791EFA9C8E003BF5DA /* EditBookInfo.swift */; };
+		3FEA278C1EFA9C9F003BF5DA /* GetNewBookInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA27891EFA9C9F003BF5DA /* GetNewBookInfo.storyboard */; };
+		3FEA278D1EFA9C9F003BF5DA /* GetBookInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA278A1EFA9C9F003BF5DA /* GetBookInfoController.swift */; };
+		3FEA278E1EFA9C9F003BF5DA /* AdditionalBookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA278B1EFA9C9F003BF5DA /* AdditionalBookInfo.swift */; };
+		3FEA27951EFA9D02003BF5DA /* AchievementsScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA27901EFA9D02003BF5DA /* AchievementsScene.storyboard */; };
+		3FEA27961EFA9D02003BF5DA /* AchievementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27911EFA9D02003BF5DA /* AchievementsController.swift */; };
+		3FEA27971EFA9D02003BF5DA /* moreInfoAchievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27921EFA9D02003BF5DA /* moreInfoAchievements.swift */; };
+		3FEA27981EFA9D02003BF5DA /* AchievementAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA27931EFA9D02003BF5DA /* AchievementAlert.storyboard */; };
+		3FEA27991EFA9D02003BF5DA /* AchievementAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27941EFA9D02003BF5DA /* AchievementAlertController.swift */; };
+		3FEA279C1EFA9D1B003BF5DA /* Cover Picture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA279A1EFA9D1B003BF5DA /* Cover Picture.storyboard */; };
+		3FEA279D1EFA9D1B003BF5DA /* CoverPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA279B1EFA9D1B003BF5DA /* CoverPicture.swift */; };
+		3FEA27A11EFA9D8E003BF5DA /* HomeTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA27A01EFA9D8E003BF5DA /* HomeTutorial.swift */; };
+		3FEB83701EB67E030085E2C9 /* HomeScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB836F1EB67E030085E2C9 /* HomeScene.storyboard */; };
+		3FF3F6C11EB8B28B0087C352 /* FInal_Project.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3F6C01EB8B28B0087C352 /* FInal_Project.xcdatamodel */; };
+		3FFABC531ED254FB005AB54D /* Manually Enter Time.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFABC521ED254FB005AB54D /* Manually Enter Time.storyboard */; };
+		3FFABC551ED2550E005AB54D /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFABC541ED2550E005AB54D /* Timer.storyboard */; };
+		3FFABC571ED25589005AB54D /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFABC561ED25589005AB54D /* Stopwatch.swift */; };
+		3FFABC591ED27D11005AB54D /* Reading Options.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFABC581ED27D11005AB54D /* Reading Options.storyboard */; };
+		3FFABC5B1ED33CDF005AB54D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFABC5A1ED33CDF005AB54D /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F00371C1EE859510055D34D /* User Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "User Info.storyboard"; sourceTree = "<group>"; };
+		3F00371D1EE859510055D34D /* User Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User Info.swift"; sourceTree = "<group>"; };
+		3F00371E1EE859510055D34D /* Avatar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Avatar.storyboard; sourceTree = "<group>"; };
+		3F00371F1EE859510055D34D /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		3F0037211EE859510055D34D /* Navigation Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Navigation Tutorial.storyboard"; sourceTree = "<group>"; };
+		3F100E741EDE29EF0086214B /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		3F100E7E1EDEFA330086214B /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3F100E801EDEFA4F0086214B /* CalendarView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarView.storyboard; sourceTree = "<group>"; };
 		3F2495C31EA53B9E00F2360A /* FInal Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FInal Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F2495C81EA53B9F00F2360A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		3F2495CE1EA53BA000F2360A /* FInal_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FInal_Project.xcdatamodel; sourceTree = "<group>"; };
 		3F2495D31EA53BA000F2360A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2495D51EA53BA000F2360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F2495DB1EA53F8700F2360A /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
 		3F2495DC1EA53F8700F2360A /* MyriadPro-It.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-It.otf"; sourceTree = "<group>"; };
-		3F2495F01EA5410A00F2360A /* Extras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Extras.storyboard; path = "FInal Project/Extras.storyboard"; sourceTree = "<group>"; };
 		3F2495F81EA5416A00F2360A /* Change Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Change Info.storyboard"; path = "FInal Project/Change Info.storyboard"; sourceTree = "<group>"; };
 		3F2495FB1EA5418F00F2360A /* Enter Book Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Enter Book Info.storyboard"; sourceTree = "<group>"; };
-		3F2495FD1EA541A600F2360A /* Cover Picture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Cover Picture.storyboard"; sourceTree = "<group>"; };
-		3F2495FF1EA541BB00F2360A /* Timer & Pages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Timer & Pages.storyboard"; sourceTree = "<group>"; };
-		3F2496011EA541F400F2360A /* Book Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Book Info.storyboard"; sourceTree = "<group>"; };
+		3F2495FF1EA541BB00F2360A /* Stopwatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stopwatch.storyboard; sourceTree = "<group>"; };
 		3F2496031EA5420900F2360A /* Authentication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
-		3F2496051EA54FB000F2360A /* User Info.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "User Info.storyboard"; sourceTree = "<group>"; };
-		3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home Tutorial.storyboard"; sourceTree = "<group>"; };
-		3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Navigation Tutorial.storyboard"; sourceTree = "<group>"; };
 		3F24960E1EA55C6000F2360A /* Notifications.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
-		3F4568061EA79F8C00A6CACE /* LibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryController.swift; path = "FInal Project/LibraryController.swift"; sourceTree = "<group>"; };
-		3F4568081EA7C4E800A6CACE /* LibraryScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LibraryScene.storyboard; sourceTree = "<group>"; };
+		3F34DF0F1ED46416008244B9 /* ReadingGoal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingGoal.swift; sourceTree = "<group>"; };
 		3F4568141EA7FDF400A6CACE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3F4568161EA7FE5700A6CACE /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3F4568181EA7FE6100A6CACE /* normalMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = normalMenuCell.swift; sourceTree = "<group>"; };
 		3F45681A1EA7FE6800A6CACE /* menuProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuProfileCell.swift; sourceTree = "<group>"; };
 		3F45681F1EA7FEB100A6CACE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		3F4568221EA80C8A00A6CACE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		3F4568231EA80C8A00A6CACE /* HomeScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeScene.storyboard; sourceTree = "<group>"; };
-		3F4568271EA80CFD00A6CACE /* AchievementsScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AchievementsScene.storyboard; sourceTree = "<group>"; };
-		3F4568281EA80CFD00A6CACE /* AchievementsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsController.swift; sourceTree = "<group>"; };
-		3F45682C1EA80D3400A6CACE /* CalendarScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarScene.storyboard; sourceTree = "<group>"; };
-		3F45682D1EA80D3400A6CACE /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
 		3F4568311EA80D5000A6CACE /* CreditsScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreditsScene.storyboard; sourceTree = "<group>"; };
 		3F4568321EA80D5000A6CACE /* CreditsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsController.swift; sourceTree = "<group>"; };
 		3F4568361EA80D9600A6CACE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
 		3F4568381EA80DC600A6CACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		3F45683B1EA80FAC00A6CACE /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		3F45683D1EA815C900A6CACE /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		3FD74E241EA7974100FB7CD9 /* StartingScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StartingScreen.storyboard; sourceTree = "<group>"; };
-		3FE2C7501EA6E08A00B9B14D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3F463C921EEDEF1500C1F7A9 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3F463C941EEDEF4B00C1F7A9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3F485D3F1EF0161900616683 /* Change Avatar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Change Avatar.storyboard"; path = "FInal Project/Change Avatar.storyboard"; sourceTree = "<group>"; };
+		3F485D411EF0171600616683 /* Change Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Change Avatar.swift"; path = "FInal Project/Change Avatar.swift"; sourceTree = "<group>"; };
+		3F4977AB1EE81C8900EEEE80 /* ManuallyEnterTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuallyEnterTime.swift; sourceTree = "<group>"; };
+		3F4E4ADB1EF9578300A5D19E /* Home Tutorial.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home Tutorial.storyboard"; sourceTree = "<group>"; };
+		3F6A33CE1EDD90B900362610 /* TimerProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerProgressViewController.swift; sourceTree = "<group>"; };
+		3F7BF95C1EF4165100CA0B7C /* Tutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		3FEA27741EFA9C8E003BF5DA /* LibraryScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LibraryScene.storyboard; path = "../../../../../../../../../Users/Student/Documents/Final Project (April 25)/LibraryScene.storyboard"; sourceTree = "<group>"; };
+		3FEA27751EFA9C8E003BF5DA /* LibraryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryController.swift; path = "../../../../../../../../../Users/Student/Documents/Final Project (April 25)/LibraryController.swift"; sourceTree = "<group>"; };
+		3FEA27761EFA9C8E003BF5DA /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		3FEA27771EFA9C8E003BF5DA /* DetailedBookInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DetailedBookInfo.storyboard; sourceTree = "<group>"; };
+		3FEA27781EFA9C8E003BF5DA /* BookInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInfoController.swift; sourceTree = "<group>"; };
+		3FEA27791EFA9C8E003BF5DA /* EditBookInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBookInfo.swift; sourceTree = "<group>"; };
+		3FEA27891EFA9C9F003BF5DA /* GetNewBookInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GetNewBookInfo.storyboard; sourceTree = "<group>"; };
+		3FEA278A1EFA9C9F003BF5DA /* GetBookInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBookInfoController.swift; sourceTree = "<group>"; };
+		3FEA278B1EFA9C9F003BF5DA /* AdditionalBookInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalBookInfo.swift; sourceTree = "<group>"; };
+		3FEA27901EFA9D02003BF5DA /* AchievementsScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AchievementsScene.storyboard; sourceTree = "<group>"; };
+		3FEA27911EFA9D02003BF5DA /* AchievementsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementsController.swift; sourceTree = "<group>"; };
+		3FEA27921EFA9D02003BF5DA /* moreInfoAchievements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreInfoAchievements.swift; sourceTree = "<group>"; };
+		3FEA27931EFA9D02003BF5DA /* AchievementAlert.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AchievementAlert.storyboard; sourceTree = "<group>"; };
+		3FEA27941EFA9D02003BF5DA /* AchievementAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AchievementAlertController.swift; sourceTree = "<group>"; };
+		3FEA279A1EFA9D1B003BF5DA /* Cover Picture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Cover Picture.storyboard"; sourceTree = "<group>"; };
+		3FEA279B1EFA9D1B003BF5DA /* CoverPicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverPicture.swift; sourceTree = "<group>"; };
+		3FEA27A01EFA9D8E003BF5DA /* HomeTutorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTutorial.swift; sourceTree = "<group>"; };
+		3FEB836F1EB67E030085E2C9 /* HomeScene.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeScene.storyboard; sourceTree = "<group>"; };
+		3FF3F6C01EB8B28B0087C352 /* FInal_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FInal_Project.xcdatamodel; sourceTree = "<group>"; };
+		3FFABC521ED254FB005AB54D /* Manually Enter Time.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Manually Enter Time.storyboard"; sourceTree = "<group>"; };
+		3FFABC541ED2550E005AB54D /* Timer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = "<group>"; };
+		3FFABC561ED25589005AB54D /* Stopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stopwatch.swift; path = ../Stopwatch.swift; sourceTree = "<group>"; };
+		3FFABC581ED27D11005AB54D /* Reading Options.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Reading Options.storyboard"; sourceTree = "<group>"; };
+		3FFABC5A1ED33CDF005AB54D /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,16 +141,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0037281EE8595A0055D34D /* First Launch */ = {
+			isa = PBXGroup;
+			children = (
+				3F4E4ADB1EF9578300A5D19E /* Home Tutorial.storyboard */,
+				3FEA27A01EFA9D8E003BF5DA /* HomeTutorial.swift */,
+				3F00371C1EE859510055D34D /* User Info.storyboard */,
+				3F00371D1EE859510055D34D /* User Info.swift */,
+				3F00371E1EE859510055D34D /* Avatar.storyboard */,
+				3F00371F1EE859510055D34D /* Avatar.swift */,
+				3F0037211EE859510055D34D /* Navigation Tutorial.storyboard */,
+			);
+			name = "First Launch";
+			sourceTree = "<group>";
+		};
+		3F100E821EDEFA650086214B /* CalendarStuff */ = {
+			isa = PBXGroup;
+			children = (
+				3F100E7E1EDEFA330086214B /* CalendarViewController.swift */,
+				3F100E801EDEFA4F0086214B /* CalendarView.storyboard */,
+			);
+			name = CalendarStuff;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3F1B5AD11ED70C720009236B /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA27901EFA9D02003BF5DA /* AchievementsScene.storyboard */,
+				3FEA27911EFA9D02003BF5DA /* AchievementsController.swift */,
+				3FEA27921EFA9D02003BF5DA /* moreInfoAchievements.swift */,
+				3FEA27931EFA9D02003BF5DA /* AchievementAlert.storyboard */,
+				3FEA27941EFA9D02003BF5DA /* AchievementAlertController.swift */,
+			);
+			name = Achievements;
+			sourceTree = "<group>";
+		};
 		3F2495BA1EA53B9D00F2360A = {
 			isa = PBXGroup;
 			children = (
-				3F4568211EA7FEC100A6CACE /* SWRevealViewControllerFiles */,
-				3F4568351EA80D5500A6CACE /* CreditsScene */,
-				3F4568301EA80D3F00A6CACE /* CalendarScene */,
-				3F45682B1EA80D0800A6CACE /* AchievementsScene */,
-				3F4568261EA80C9300A6CACE /* HomeScene */,
-				3F2495F71EA5414300F2360A /* LibraryScene */,
-				3F45681C1EA7FE6F00A6CACE /* MenuFiles */,
 				3F2495C51EA53B9E00F2360A /* Final Project */,
 				3F2495C41EA53B9E00F2360A /* Products */,
 				3F2495DD1EA53F9300F2360A /* Resources */,
@@ -122,18 +197,21 @@
 		3F2495C51EA53B9E00F2360A /* Final Project */ = {
 			isa = PBXGroup;
 			children = (
+				3F0037281EE8595A0055D34D /* First Launch */,
+				3F100E821EDEFA650086214B /* CalendarStuff */,
+				3F4568211EA7FEC100A6CACE /* SWRevealViewControllerFiles */,
+				3F4568351EA80D5500A6CACE /* CreditsScene */,
+				3F1B5AD11ED70C720009236B /* Achievements */,
+				3F4568261EA80C9300A6CACE /* HomeScene */,
+				3F2495F71EA5414300F2360A /* LibraryScene */,
+				3F45681C1EA7FE6F00A6CACE /* MenuFiles */,
 				3F2496101EA55C6400F2360A /* Notifications */,
-				3F2496071EA54FC700F2360A /* First Launch */,
 				3F2495FA1EA5417A00F2360A /* Get Reading */,
-				3F2495F21EA5410E00F2360A /* Extras */,
-				3F2495E31EA5404800F2360A /* Home */,
-				3FD74E241EA7974100FB7CD9 /* StartingScreen.storyboard */,
 				3F4568361EA80D9600A6CACE /* AppDelegate.swift */,
 				3F4568381EA80DC600A6CACE /* Assets.xcassets */,
-				3F2495C81EA53B9F00F2360A /* MainViewController.swift */,
 				3F2495D21EA53BA000F2360A /* LaunchScreen.storyboard */,
 				3F2495D51EA53BA000F2360A /* Info.plist */,
-				3F2495CD1EA53BA000F2360A /* FInal_Project.xcdatamodeld */,
+				3FF3F6C01EB8B28B0087C352 /* FInal_Project.xcdatamodel */,
 			);
 			name = "Final Project";
 			path = "FInal Project";
@@ -148,54 +226,29 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3F2495E31EA5404800F2360A /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				3F2495F81EA5416A00F2360A /* Change Info.storyboard */,
-				3FE2C7501EA6E08A00B9B14D /* Home.storyboard */,
-			);
-			name = Home;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		3F2495F21EA5410E00F2360A /* Extras */ = {
-			isa = PBXGroup;
-			children = (
-				3F2495F01EA5410A00F2360A /* Extras.storyboard */,
-			);
-			name = Extras;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		3F2495F71EA5414300F2360A /* LibraryScene */ = {
 			isa = PBXGroup;
 			children = (
-				3F4568081EA7C4E800A6CACE /* LibraryScene.storyboard */,
-				3F4568061EA79F8C00A6CACE /* LibraryController.swift */,
-				3F2496011EA541F400F2360A /* Book Info.storyboard */,
+				3FEA27741EFA9C8E003BF5DA /* LibraryScene.storyboard */,
+				3FEA27751EFA9C8E003BF5DA /* LibraryController.swift */,
+				3FEA278F1EFA9CB0003BF5DA /* Add New Book */,
+				3FEA277A1EFA9C8E003BF5DA /* Detailed Book Info */,
 			);
 			name = LibraryScene;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3F2495FA1EA5417A00F2360A /* Get Reading */ = {
 			isa = PBXGroup;
 			children = (
-				3F2495FF1EA541BB00F2360A /* Timer & Pages.storyboard */,
+				3F34DF0E1ED463C0008244B9 /* Start Reading */,
 				3F2495FB1EA5418F00F2360A /* Enter Book Info.storyboard */,
 				3F2496031EA5420900F2360A /* Authentication.storyboard */,
-				3F2495FD1EA541A600F2360A /* Cover Picture.storyboard */,
+				3F100E741EDE29EF0086214B /* Authentication.swift */,
+				3FEA279A1EFA9D1B003BF5DA /* Cover Picture.storyboard */,
+				3FEA279B1EFA9D1B003BF5DA /* CoverPicture.swift */,
 			);
 			name = "Get Reading";
-			sourceTree = "<group>";
-		};
-		3F2496071EA54FC700F2360A /* First Launch */ = {
-			isa = PBXGroup;
-			children = (
-				3F2496051EA54FB000F2360A /* User Info.storyboard */,
-				3F24960A1EA5506600F2360A /* Home Tutorial.storyboard */,
-				3F24960C1EA5508E00F2360A /* Navigation Tutorial.storyboard */,
-			);
-			name = "First Launch";
 			sourceTree = "<group>";
 		};
 		3F2496101EA55C6400F2360A /* Notifications */ = {
@@ -204,6 +257,46 @@
 				3F24960E1EA55C6000F2360A /* Notifications.storyboard */,
 			);
 			name = Notifications;
+			sourceTree = "<group>";
+		};
+		3F34DF0B1ED46389008244B9 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A33CE1EDD90B900362610 /* TimerProgressViewController.swift */,
+				3FFABC5A1ED33CDF005AB54D /* Timer.swift */,
+				3FFABC541ED2550E005AB54D /* Timer.storyboard */,
+				3F34DF0F1ED46416008244B9 /* ReadingGoal.swift */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		3F34DF0C1ED46396008244B9 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				3F2495FF1EA541BB00F2360A /* Stopwatch.storyboard */,
+				3FFABC561ED25589005AB54D /* Stopwatch.swift */,
+			);
+			name = Stopwatch;
+			sourceTree = "<group>";
+		};
+		3F34DF0D1ED463AD008244B9 /* Manual Entry */ = {
+			isa = PBXGroup;
+			children = (
+				3FFABC521ED254FB005AB54D /* Manually Enter Time.storyboard */,
+				3F4977AB1EE81C8900EEEE80 /* ManuallyEnterTime.swift */,
+			);
+			name = "Manual Entry";
+			sourceTree = "<group>";
+		};
+		3F34DF0E1ED463C0008244B9 /* Start Reading */ = {
+			isa = PBXGroup;
+			children = (
+				3FFABC581ED27D11005AB54D /* Reading Options.storyboard */,
+				3F34DF0B1ED46389008244B9 /* Timer */,
+				3F34DF0C1ED46396008244B9 /* Stopwatch */,
+				3F34DF0D1ED463AD008244B9 /* Manual Entry */,
+			);
+			name = "Start Reading";
 			sourceTree = "<group>";
 		};
 		3F45681C1EA7FE6F00A6CACE /* MenuFiles */ = {
@@ -215,6 +308,7 @@
 				3F45681A1EA7FE6800A6CACE /* menuProfileCell.swift */,
 			);
 			name = MenuFiles;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3F4568211EA7FEC100A6CACE /* SWRevealViewControllerFiles */ = {
@@ -225,33 +319,22 @@
 				3F45683D1EA815C900A6CACE /* SWRevealViewController.h */,
 			);
 			name = SWRevealViewControllerFiles;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3F4568261EA80C9300A6CACE /* HomeScene */ = {
 			isa = PBXGroup;
 			children = (
-				3F4568221EA80C8A00A6CACE /* HomeViewController.swift */,
-				3F4568231EA80C8A00A6CACE /* HomeScene.storyboard */,
+				3F485D411EF0171600616683 /* Change Avatar.swift */,
+				3F485D3F1EF0161900616683 /* Change Avatar.storyboard */,
+				3F463C921EEDEF1500C1F7A9 /* Home.swift */,
+				3F463C941EEDEF4B00C1F7A9 /* HomeViewController.swift */,
+				3FEB836F1EB67E030085E2C9 /* HomeScene.storyboard */,
+				3F7BF95C1EF4165100CA0B7C /* Tutorial.swift */,
+				3F2495F81EA5416A00F2360A /* Change Info.storyboard */,
 			);
 			name = HomeScene;
-			sourceTree = "<group>";
-		};
-		3F45682B1EA80D0800A6CACE /* AchievementsScene */ = {
-			isa = PBXGroup;
-			children = (
-				3F4568271EA80CFD00A6CACE /* AchievementsScene.storyboard */,
-				3F4568281EA80CFD00A6CACE /* AchievementsController.swift */,
-			);
-			name = AchievementsScene;
-			sourceTree = "<group>";
-		};
-		3F4568301EA80D3F00A6CACE /* CalendarScene */ = {
-			isa = PBXGroup;
-			children = (
-				3F45682C1EA80D3400A6CACE /* CalendarScene.storyboard */,
-				3F45682D1EA80D3400A6CACE /* CalendarController.swift */,
-			);
-			name = CalendarScene;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3F4568351EA80D5500A6CACE /* CreditsScene */ = {
@@ -261,6 +344,29 @@
 				3F4568321EA80D5000A6CACE /* CreditsController.swift */,
 			);
 			name = CreditsScene;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3FEA277A1EFA9C8E003BF5DA /* Detailed Book Info */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA27761EFA9C8E003BF5DA /* FloatRatingView.swift */,
+				3FEA27771EFA9C8E003BF5DA /* DetailedBookInfo.storyboard */,
+				3FEA27781EFA9C8E003BF5DA /* BookInfoController.swift */,
+				3FEA27791EFA9C8E003BF5DA /* EditBookInfo.swift */,
+			);
+			name = "Detailed Book Info";
+			path = "../../../../../../../../../Users/Student/Documents/Final Project (April 25)";
+			sourceTree = "<group>";
+		};
+		3FEA278F1EFA9CB0003BF5DA /* Add New Book */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA27891EFA9C9F003BF5DA /* GetNewBookInfo.storyboard */,
+				3FEA278A1EFA9C9F003BF5DA /* GetBookInfoController.swift */,
+				3FEA278B1EFA9C9F003BF5DA /* AdditionalBookInfo.swift */,
+			);
+			name = "Add New Book";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +401,7 @@
 				TargetAttributes = {
 					3F2495C21EA53B9D00F2360A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 72UCQX9XSR;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -323,27 +430,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F2496021EA541F400F2360A /* Book Info.storyboard in Resources */,
-				3F4568251EA80C8A00A6CACE /* HomeScene.storyboard in Resources */,
-				3F2495F11EA5410A00F2360A /* Extras.storyboard in Resources */,
 				3F4568391EA80DC600A6CACE /* Assets.xcassets in Resources */,
+				3FEA277F1EFA9C8E003BF5DA /* LibraryScene.storyboard in Resources */,
+				3F485D401EF0161A00616683 /* Change Avatar.storyboard in Resources */,
+				3FFABC591ED27D11005AB54D /* Reading Options.storyboard in Resources */,
 				3F2495FC1EA5418F00F2360A /* Enter Book Info.storyboard in Resources */,
-				3F4568091EA7C4E800A6CACE /* LibraryScene.storyboard in Resources */,
+				3FEA27951EFA9D02003BF5DA /* AchievementsScene.storyboard in Resources */,
+				3FEB83701EB67E030085E2C9 /* HomeScene.storyboard in Resources */,
 				3F2495D41EA53BA000F2360A /* LaunchScreen.storyboard in Resources */,
-				3F4568291EA80CFD00A6CACE /* AchievementsScene.storyboard in Resources */,
-				3F24960B1EA5506600F2360A /* Home Tutorial.storyboard in Resources */,
+				3FFABC531ED254FB005AB54D /* Manually Enter Time.storyboard in Resources */,
+				3F0037241EE859510055D34D /* Avatar.storyboard in Resources */,
+				3F100E811EDEFA4F0086214B /* CalendarView.storyboard in Resources */,
+				3FEA279C1EFA9D1B003BF5DA /* Cover Picture.storyboard in Resources */,
+				3F0037221EE859510055D34D /* User Info.storyboard in Resources */,
+				3FEA27981EFA9D02003BF5DA /* AchievementAlert.storyboard in Resources */,
+				3FEA278C1EFA9C9F003BF5DA /* GetNewBookInfo.storyboard in Resources */,
+				3FEA27821EFA9C8E003BF5DA /* DetailedBookInfo.storyboard in Resources */,
 				3F24960F1EA55C6000F2360A /* Notifications.storyboard in Resources */,
-				3F2496001EA541BB00F2360A /* Timer & Pages.storyboard in Resources */,
+				3F2496001EA541BB00F2360A /* Stopwatch.storyboard in Resources */,
 				3F2496041EA5420900F2360A /* Authentication.storyboard in Resources */,
+				3F0037271EE859510055D34D /* Navigation Tutorial.storyboard in Resources */,
 				3F4568331EA80D5000A6CACE /* CreditsScene.storyboard in Resources */,
-				3F24960D1EA5508E00F2360A /* Navigation Tutorial.storyboard in Resources */,
-				3F45682E1EA80D3400A6CACE /* CalendarScene.storyboard in Resources */,
-				3F2495FE1EA541A600F2360A /* Cover Picture.storyboard in Resources */,
+				3F4E4ADC1EF9578300A5D19E /* Home Tutorial.storyboard in Resources */,
 				3F2495F91EA5416A00F2360A /* Change Info.storyboard in Resources */,
 				3F4568151EA7FDF400A6CACE /* Main.storyboard in Resources */,
-				3FE2C7511EA6E08A00B9B14D /* Home.storyboard in Resources */,
-				3FD74E251EA7974100FB7CD9 /* StartingScreen.storyboard in Resources */,
-				3F2496061EA54FB000F2360A /* User Info.storyboard in Resources */,
+				3FFABC551ED2550E005AB54D /* Timer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,18 +465,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEA27991EFA9D02003BF5DA /* AchievementAlertController.swift in Sources */,
 				3F4568371EA80D9600A6CACE /* AppDelegate.swift in Sources */,
-				3F2495CF1EA53BA000F2360A /* FInal_Project.xcdatamodeld in Sources */,
+				3FEA27831EFA9C8E003BF5DA /* BookInfoController.swift in Sources */,
 				3F4568171EA7FE5700A6CACE /* MenuViewController.swift in Sources */,
-				3F2495C91EA53B9F00F2360A /* MainViewController.swift in Sources */,
 				3F4568201EA7FEB100A6CACE /* SWRevealViewController.m in Sources */,
 				3F4568341EA80D5000A6CACE /* CreditsController.swift in Sources */,
-				3F4568241EA80C8A00A6CACE /* HomeViewController.swift in Sources */,
+				3FEA279D1EFA9D1B003BF5DA /* CoverPicture.swift in Sources */,
+				3F463C931EEDEF1500C1F7A9 /* Home.swift in Sources */,
+				3F0037231EE859510055D34D /* User Info.swift in Sources */,
+				3FEA27971EFA9D02003BF5DA /* moreInfoAchievements.swift in Sources */,
+				3FFABC5B1ED33CDF005AB54D /* Timer.swift in Sources */,
+				3FEA27A11EFA9D8E003BF5DA /* HomeTutorial.swift in Sources */,
+				3F6A33CF1EDD90B900362610 /* TimerProgressViewController.swift in Sources */,
 				3F45681B1EA7FE6800A6CACE /* menuProfileCell.swift in Sources */,
-				3F45682F1EA80D3400A6CACE /* CalendarController.swift in Sources */,
-				3F4568071EA79F8C00A6CACE /* LibraryController.swift in Sources */,
+				3F4977AC1EE81C8A00EEEE80 /* ManuallyEnterTime.swift in Sources */,
+				3F100E751EDE29F00086214B /* Authentication.swift in Sources */,
+				3FEA27841EFA9C8E003BF5DA /* EditBookInfo.swift in Sources */,
+				3F100E7F1EDEFA330086214B /* CalendarViewController.swift in Sources */,
+				3FEA278D1EFA9C9F003BF5DA /* GetBookInfoController.swift in Sources */,
+				3F0037251EE859510055D34D /* Avatar.swift in Sources */,
+				3FFABC571ED25589005AB54D /* Stopwatch.swift in Sources */,
+				3F7BF95D1EF4165100CA0B7C /* Tutorial.swift in Sources */,
+				3F463C951EEDEF4B00C1F7A9 /* HomeViewController.swift in Sources */,
+				3FEA278E1EFA9C9F003BF5DA /* AdditionalBookInfo.swift in Sources */,
+				3FF3F6C11EB8B28B0087C352 /* FInal_Project.xcdatamodel in Sources */,
 				3F4568191EA7FE6100A6CACE /* normalMenuCell.swift in Sources */,
-				3F45682A1EA80CFD00A6CACE /* AchievementsController.swift in Sources */,
+				3FEA27961EFA9D02003BF5DA /* AchievementsController.swift in Sources */,
+				3F485D421EF0171600616683 /* Change Avatar.swift in Sources */,
+				3FEA27801EFA9C8E003BF5DA /* LibraryController.swift in Sources */,
+				3FEA27811EFA9C8E003BF5DA /* FloatRatingView.swift in Sources */,
+				3F34DF101ED46417008244B9 /* ReadingGoal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +611,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 72UCQX9XSR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "FInal Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FinalProject.FInal-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Student/Desktop/FInal Project/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/RIDA RAHMAN/Rida's Stuff/School/Grade 12/Computer Sciences/Swift/App/Final Project (April 25)/BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -496,11 +631,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 72UCQX9XSR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "FInal Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FinalProject.FInal-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Student/Desktop/FInal Project/BridgingHeader.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/RIDA RAHMAN/Rida's Stuff/School/Grade 12/Computer Sciences/Swift/App/Final Project (April 25)/BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -527,19 +667,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		3F2495CD1EA53BA000F2360A /* FInal_Project.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				3F2495CE1EA53BA000F2360A /* FInal_Project.xcdatamodel */,
-			);
-			currentVersion = 3F2495CE1EA53BA000F2360A /* FInal_Project.xcdatamodel */;
-			path = FInal_Project.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 3F2495BB1EA53B9D00F2360A /* Project object */;
 }

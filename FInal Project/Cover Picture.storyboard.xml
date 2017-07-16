@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Bky-dv-TCA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera-->
+        <scene sceneID="xKx-6r-cEs">
+            <objects>
+                <viewController storyboardIdentifier="Camera" title="Camera" id="Bky-dv-TCA" customClass="CoverPicture" customModule="FInal_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="03s-xH-yP0"/>
+                        <viewControllerLayoutGuide type="bottom" id="HV4-t9-gfq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="whr-Uo-Thl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52r-va-lqx">
+                                <rect key="frame" x="100" y="566" width="175" height="38"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <state key="normal" title="Take Cover Photo!"/>
+                                <connections>
+                                    <action selector="takephoto:" destination="Bky-dv-TCA" eventType="touchUpInside" id="Ma3-8k-96K"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JxL-GJ-hdC">
+                                <rect key="frame" x="27.5" y="133" width="319" height="417"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JxL-GJ-hdC" secondAttribute="height" multiplier="383:539" constant="23.159554730983302" id="jFe-C6-ynL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JxL-GJ-hdC" firstAttribute="centerY" secondItem="whr-Uo-Thl" secondAttribute="centerY" constant="8" id="IOg-P5-3AA"/>
+                            <constraint firstItem="52r-va-lqx" firstAttribute="centerX" secondItem="whr-Uo-Thl" secondAttribute="centerX" id="YRy-h3-qsM"/>
+                            <constraint firstItem="HV4-t9-gfq" firstAttribute="top" secondItem="JxL-GJ-hdC" secondAttribute="bottom" constant="73" id="adq-aZ-7gn"/>
+                            <constraint firstItem="HV4-t9-gfq" firstAttribute="top" secondItem="52r-va-lqx" secondAttribute="bottom" constant="19" id="nTz-vB-bcU"/>
+                            <constraint firstItem="JxL-GJ-hdC" firstAttribute="centerX" secondItem="whr-Uo-Thl" secondAttribute="centerX" id="wdW-Ku-TXD"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="Skip" style="done" id="GoZ-mV-jdS">
+                            <connections>
+                                <action selector="skipClicked:" destination="Bky-dv-TCA" id="Pbj-ic-QSj"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Q44-5Z-n4D"/>
+                        <barButtonItem systemItem="save" id="Mom-6j-wn8">
+                            <connections>
+                                <action selector="saveClicked:" destination="Bky-dv-TCA" id="tbd-1x-eiW"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imageview" destination="JxL-GJ-hdC" id="Kmt-7o-CFZ"/>
+                        <outlet property="saveButton" destination="Mom-6j-wn8" id="vaU-sN-AyX"/>
+                        <outlet property="skipButton" destination="GoZ-mV-jdS" id="y5w-Gc-2A2"/>
+                        <outlet property="takePhotoButton" destination="52r-va-lqx" id="Cg5-KG-8Zl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E3f-LI-YzY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

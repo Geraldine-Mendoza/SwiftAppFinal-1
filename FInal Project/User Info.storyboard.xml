@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7jL-bw-qew">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MyriadPro-Regular.otf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--FIrst-->
+        <scene sceneID="D12-4B-yiZ">
+            <objects>
+                <viewController storyboardIdentifier="Username" title="FIrst" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7jL-bw-qew" customClass="User_Info" customModule="FInal_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jMM-it-S8p"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ofp-jg-lO4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Lj-XN-OUY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="__________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A24-vj-jH5">
+                                <rect key="frame" x="79" y="288" width="246" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYR-Ao-ijN">
+                                <rect key="frame" x="87" y="259" width="240" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="NameEditingDidChange:" destination="7jL-bw-qew" eventType="editingChanged" id="UXJ-KM-AmJ"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dP-Eb-KBV">
+                                <rect key="frame" x="177" y="400" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="User Info Button"/>
+                                <connections>
+                                    <action selector="NextButtonPressed:" destination="7jL-bw-qew" eventType="touchUpInside" id="yLe-AP-nTJ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="What’s Your Name_@1X.png" translatesAutoresizingMaskIntoConstraints="NO" id="UlH-zq-rtJ">
+                                <rect key="frame" x="87" y="176" width="240" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.14901960780000001" green="0.6705882353" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lYb-VP-TIC"/>
+                    <connections>
+                        <outlet property="NameInput" destination="yYR-Ao-ijN" id="aLh-MB-V9w"/>
+                        <outlet property="NextButton" destination="5dP-Eb-KBV" id="Geo-Sj-mKv"/>
+                        <segue destination="P2j-Jf-ANK" kind="presentation" identifier="fistBump" id="dy7-Ne-Dwb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QeS-mE-iN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2134.7826086956525" y="-279.61956521739131"/>
+        </scene>
+        <!--Avatar-->
+        <scene sceneID="HKM-2Z-BqW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Avatar" id="P2j-Jf-ANK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15Y-aH-Fle" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3339.130434782609" y="-428.804347826087"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="User Info Button" width="82" height="82"/>
+        <image name="What’s Your Name_@1X.png" width="303" height="28"/>
+    </resources>
+</document>

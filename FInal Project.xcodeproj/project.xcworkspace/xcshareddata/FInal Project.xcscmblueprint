@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20FEACCED1BA48506CB5F95EE9C7E1C942903C09",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2C8E4119349BC05B480449F2CB0472DF3C5E4154" : 9223372036854775807,
+    "20FEACCED1BA48506CB5F95EE9C7E1C942903C09" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF4B788F-5DD0-4BA3-9C2E-653DFB8F3E76",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2C8E4119349BC05B480449F2CB0472DF3C5E4154" : "..\/Google%20Drive\/Computer%20Science%20(12)\/Swift%20App%20Project\/NavigationBar",
+    "20FEACCED1BA48506CB5F95EE9C7E1C942903C09" : "Final%20Project%20(April%2025)\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FInal Project",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FInal Project.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rida-r1787\/SwiftAppFinal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20FEACCED1BA48506CB5F95EE9C7E1C942903C09"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rida-r1787\/SwiftAppFinal",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2C8E4119349BC05B480449F2CB0472DF3C5E4154"
+    }
+  ]
+}

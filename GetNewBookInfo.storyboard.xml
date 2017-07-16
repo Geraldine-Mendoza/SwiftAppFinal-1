@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="GNY-7f-3BM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MyriadPro-Regular.otf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Save a New Book-->
+        <scene sceneID="5OQ-zC-YQB">
+            <objects>
+                <viewController id="GNY-7f-3BM" customClass="GetBookInfoController" customModule="FInal_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mqp-vh-4ab"/>
+                        <viewControllerLayoutGuide type="bottom" id="AL5-tv-WFp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xDt-9c-QHz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="stH-fq-VmV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="741"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Harry Potter" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="23" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="sXo-cz-fUq">
+                                        <rect key="frame" x="51" y="165" width="270" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="2Qx-s0-4P5"/>
+                                            <constraint firstAttribute="width" constant="270" id="f9s-7y-e1V"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="GNY-7f-3BM" id="XLn-kE-gGT"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your book title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcV-c9-j7z">
+                                        <rect key="frame" x="51" y="81" width="270" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="270" id="PEf-m4-YZC"/>
+                                            <constraint firstAttribute="height" constant="65" id="ifl-8m-g93"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="J.K. Rowling" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RKu-rf-rgt">
+                                        <rect key="frame" x="52.5" y="459" width="270" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="OnM-Pt-ImA"/>
+                                            <constraint firstAttribute="width" constant="270" id="jhM-Yb-jiu"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" spellCheckingType="no"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="GNY-7f-3BM" id="8nE-eK-YVu"/>
+                                        </connections>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="456" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TM6-Dm-044">
+                                        <rect key="frame" x="52" y="335" width="270" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="4DY-aD-sHv"/>
+                                            <constraint firstAttribute="width" constant="270" id="Pea-c7-zb2"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="numberPad" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="GNY-7f-3BM" id="7oW-l9-I2Q"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many pages are in the book?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.45000000000000001" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eFE-O9-sa0">
+                                        <rect key="frame" x="51" y="214" width="271" height="88"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="271" id="LA7-jS-061"/>
+                                            <constraint firstAttribute="height" constant="88" id="j9l-D1-FQ5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTG-BY-sEJ">
+                                        <rect key="frame" x="156" y="541" width="61" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="61" id="l0o-2I-aYf"/>
+                                            <constraint firstAttribute="height" constant="61" id="yew-OZ-2Fi"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Forward Button"/>
+                                        <connections>
+                                            <action selector="addBook:" destination="GNY-7f-3BM" eventType="touchUpInside" id="Hkc-Rc-mUQ"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNU-mJ-UeE">
+                                        <rect key="frame" x="53" y="386" width="270" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="0xA-nx-XvV"/>
+                                            <constraint firstAttribute="width" constant="270" id="OXs-TK-aTf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="nTG-BY-sEJ" firstAttribute="top" secondItem="RKu-rf-rgt" secondAttribute="bottom" constant="52" id="3qa-TY-ET4"/>
+                                    <constraint firstItem="eFE-O9-sa0" firstAttribute="top" secondItem="KcV-c9-j7z" secondAttribute="bottom" constant="68" id="5cE-5g-EFV"/>
+                                    <constraint firstItem="KcV-c9-j7z" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" constant="-1.5" id="8qz-zR-eVY"/>
+                                    <constraint firstItem="sXo-cz-fUq" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" constant="-1.5" id="Dlh-MR-dSR"/>
+                                    <constraint firstItem="TM6-Dm-044" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" id="Nc2-fC-fE1"/>
+                                    <constraint firstAttribute="bottom" secondItem="nTG-BY-sEJ" secondAttribute="bottom" constant="139" id="OCN-dV-10C"/>
+                                    <constraint firstItem="RKu-rf-rgt" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" id="VFc-as-c5I"/>
+                                    <constraint firstItem="nTG-BY-sEJ" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" constant="-1" id="f39-9L-eAQ"/>
+                                    <constraint firstItem="sXo-cz-fUq" firstAttribute="top" secondItem="KcV-c9-j7z" secondAttribute="bottom" constant="19" id="meN-eB-OGt"/>
+                                    <constraint firstItem="tNU-mJ-UeE" firstAttribute="top" secondItem="TM6-Dm-044" secondAttribute="bottom" constant="21" id="q1R-pW-BOt"/>
+                                    <constraint firstItem="KcV-c9-j7z" firstAttribute="top" secondItem="stH-fq-VmV" secondAttribute="top" constant="81" id="uce-2x-R5n"/>
+                                    <constraint firstAttribute="trailing" secondItem="eFE-O9-sa0" secondAttribute="trailing" constant="53" id="vnQ-4w-2I6"/>
+                                    <constraint firstItem="TM6-Dm-044" firstAttribute="top" secondItem="eFE-O9-sa0" secondAttribute="bottom" constant="33" id="wCF-T7-oBY"/>
+                                    <constraint firstItem="RKu-rf-rgt" firstAttribute="top" secondItem="tNU-mJ-UeE" secondAttribute="bottom" constant="8" symbolic="YES" id="x5K-yD-1eU"/>
+                                    <constraint firstItem="eFE-O9-sa0" firstAttribute="centerX" secondItem="stH-fq-VmV" secondAttribute="centerX" constant="-1" id="xLh-Yi-vFd"/>
+                                    <constraint firstItem="tNU-mJ-UeE" firstAttribute="leading" secondItem="stH-fq-VmV" secondAttribute="leading" constant="53" id="yw7-Jk-SPz"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="stH-fq-VmV" firstAttribute="leading" secondItem="xDt-9c-QHz" secondAttribute="leading" id="1dn-E9-qFD"/>
+                            <constraint firstItem="stH-fq-VmV" firstAttribute="top" secondItem="xDt-9c-QHz" secondAttribute="top" id="7hF-mA-sWl"/>
+                            <constraint firstItem="stH-fq-VmV" firstAttribute="leading" secondItem="xDt-9c-QHz" secondAttribute="leading" id="91u-H9-g8F"/>
+                            <constraint firstAttribute="trailing" secondItem="stH-fq-VmV" secondAttribute="trailing" id="EB7-ch-ER9"/>
+                            <constraint firstAttribute="trailing" secondItem="stH-fq-VmV" secondAttribute="trailing" id="ZcZ-OT-o3C"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="stH-fq-VmV" secondAttribute="bottom" constant="-74" id="z8Z-tH-biJ"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Save a New Book" id="3aN-d6-8NT">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="xrC-as-2Fi">
+                            <connections>
+                                <segue destination="uZT-0Q-A07" kind="unwind" unwindAction="unwindtoInitialWithSegue:" id="nLW-3d-1nW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="author" destination="RKu-rf-rgt" id="bQ1-RH-gMS"/>
+                        <outlet property="bookTitle" destination="sXo-cz-fUq" id="lMS-uM-GEC"/>
+                        <outlet property="continueButton" destination="nTG-BY-sEJ" id="8eD-ta-XAB"/>
+                        <outlet property="pages" destination="TM6-Dm-044" id="1kU-KM-OcV"/>
+                        <outlet property="theScrollView" destination="stH-fq-VmV" id="sT6-aF-Fa0"/>
+                        <segue destination="jFf-he-2dv" kind="show" identifier="moreInfo" id="5Xc-Gq-brY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SAo-Ad-VLT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="uZT-0Q-A07" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1586.4000000000001" y="40.929535232383813"/>
+        </scene>
+        <!--More Info-->
+        <scene sceneID="NZy-h5-Tw5">
+            <objects>
+                <viewController title="More Info" id="jFf-he-2dv" customClass="GetMoreBookInfo" customModule="FInal_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K6P-zd-6W8"/>
+                        <viewControllerLayoutGuide type="bottom" id="8oo-RJ-I31"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zrM-g4-0lI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xr2-c6-ZGg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How much have you read today?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ny-DL-VBc">
+                                <rect key="frame" x="66" y="94" width="244" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What was the last page you read?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVH-Jw-nO0">
+                                <rect key="frame" x="66" y="342" width="244" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEw-OF-NnQ">
+                                <rect key="frame" x="211" y="263" width="129" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8f-kT-jBg">
+                                <rect key="frame" x="211" y="197" width="129" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0M-hI-Gur">
+                                <rect key="frame" x="211" y="446" width="129" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3A-Lm-Txv">
+                                <rect key="frame" x="203" y="529" width="61" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Forward Button"/>
+                                <connections>
+                                    <action selector="addBook:" destination="GNY-7f-3BM" eventType="touchUpInside" id="7Wf-7O-w7N"/>
+                                    <action selector="nextButtonClicked:" destination="jFf-he-2dv" eventType="touchUpInside" id="cRt-8L-11r"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xJa-Ff-Sro">
+                                <rect key="frame" x="91" y="198" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EIr-N1-kiZ">
+                                <rect key="frame" x="91" y="269" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ou9-80-ONj">
+                                <rect key="frame" x="121" y="529" width="65" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Back Button"/>
+                                <connections>
+                                    <segue destination="P8V-7F-5jr" kind="unwind" unwindAction="unwindtoInitialWithSegue:" id="udj-s4-SLL"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VGU-DK-2DY">
+                                <rect key="frame" x="91" y="450" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="ou9-80-ONj" id="tfx-u2-mds"/>
+                        <outlet property="hoursField" destination="xJa-Ff-Sro" id="dgT-75-tvH"/>
+                        <outlet property="minutesField" destination="EIr-N1-kiZ" id="DUY-6e-pgC"/>
+                        <outlet property="nextButton" destination="Q3A-Lm-Txv" id="Ito-cr-zjQ"/>
+                        <outlet property="pagesField" destination="VGU-DK-2DY" id="ci4-Le-hQR"/>
+                        <outlet property="scrollView" destination="Xr2-c6-ZGg" id="qBE-zh-tMT"/>
+                        <segue destination="Md5-mK-M17" kind="show" identifier="toCamera" id="EiG-qD-eRW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQh-th-IWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="P8V-7F-5jr" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2333.5999999999999" y="40.929535232383813"/>
+        </scene>
+        <!--Cover Picture-->
+        <scene sceneID="Vpm-F6-ahA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cover Picture" id="Md5-mK-M17" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfF-6X-drg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3175" y="40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Back Button" width="61" height="61"/>
+        <image name="Forward Button" width="61" height="61"/>
+    </resources>
+</document>
